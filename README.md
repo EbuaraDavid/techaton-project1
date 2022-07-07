@@ -1,2 +1,1 @@
-# techaton-project1
-an online order page
+https://ebuaradavid.github.io/techaton-project1/
