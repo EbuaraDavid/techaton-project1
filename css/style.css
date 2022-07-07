@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(166, 215, 243);
+}
+.summary-card {
+    width: 350px;
+    margin: 60px auto;
+    border-radius: 20px;
+    position: absolute;
+    top: 20px;
+    left: 470px;
+    background-color: white;
+
+    
+}
+.summary-card img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.order-sum {
+    width: 250px;
+    margin: 40px auto 20px auto;
+}
+    .listen{
+        width: 300px;
+        margin: 0 auto 20px auto;
+        font-size: 16px;
+        text-align: center;
+    }
+    .plan-card{
+        padding: 20px;
+        display: flex;
+        width: 300px;
+        margin: auto;
+        background-color: rgb(242, 247, 250);
+        border-radius: 10px;
+    } 
+    .image img{
+        width: 30px;
+    }
+    .image{
+       margin: auto;
+    }
+    .plan{
+        margin: auto;
+    }
+    .link{
+        margin-left: 82px;
+        margin-top: 8px;   
+    }
+    button{
+        background-color: hsl(234, 97%, 46%);
+        padding: 10px;
+        width: 300px;
+        margin-top: 20px;
+        margin-left: 25px;
+        border-radius: 10px;
+    }
+    .cancel{
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .background{
+        position:relative; 
+
+    }
