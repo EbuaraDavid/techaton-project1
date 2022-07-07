@@ -4,18 +4,20 @@
     box-sizing: border-box;
 }
 body {
-    background-color: rgb(166, 215, 243);
+    background-color:  hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
 }
 .summary-card {
-    width: 350px;
+    width: 360px;
     margin: 60px auto;
     border-radius: 20px;
     position: absolute;
     top: 20px;
     left: 470px;
     background-color: white;
-
-    
+    box-shadow: 0 4px 8px 0 hsl(240, 5%, 80%);  
 }
 .summary-card img{
     width: 100%;
@@ -25,12 +27,16 @@ body {
 .order-sum {
     width: 250px;
     margin: 40px auto 20px auto;
+    text-align: center;
+    opacity: 0.8;
 }
     .listen{
         width: 300px;
         margin: 0 auto 20px auto;
-        font-size: 16px;
         text-align: center;
+    }
+    .listen p, .dollar, .cancel {
+        opacity: 0.5;
     }
     .plan-card{
         padding: 20px;
@@ -49,17 +55,27 @@ body {
     .plan{
         margin: auto;
     }
+    .Anual{
+        font-weight: bold;
+        word-wrap: none;
+        font-size: 15px;
+        opacity: 0.8;  
+    }
     .link{
         margin-left: 82px;
-        margin-top: 8px;   
+        margin-top: 8px;
+        font-size: 12px;   
     }
     button{
-        background-color: hsl(234, 97%, 46%);
+        background-color: hsl(245, 75%, 52%);
         padding: 10px;
         width: 300px;
         margin-top: 20px;
-        margin-left: 25px;
+        margin-left: 30px;
         border-radius: 10px;
+        color: white;
+        font-weight: 700;
+        box-shadow: 0 4px 8px 0 hsl(224, 23%, 55%);
     }
     .cancel{
         text-align: center;
